@@ -92,4 +92,3 @@ public with sharing class LeadTriggerHandlerTest {
         Assert.isTrue( updatedLead.IsConverted, 'The lead did not convert');
     }
 }
-//test git push

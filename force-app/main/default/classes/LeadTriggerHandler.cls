@@ -152,7 +152,6 @@ public with sharing class LeadTriggerHandler {
 				leadConverts.add(lc);
 			}
 		}
-//test git push
 		if (!leadConverts.isEmpty()) {
 			List<Database.LeadConvertResult> lcrs = Database.convertLead(leadConverts);
 		}
